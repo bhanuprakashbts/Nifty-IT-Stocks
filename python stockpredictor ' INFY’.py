@@ -36,6 +36,7 @@ infy_test_x=X_train[-30:]
 infy_test_y=y_train[-30:]
 
 #Final Model
+from sklearn.linear_model import LinearRegression
 infy_grid_lm = LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
 infy_grid_lm.fit(infy_train_x,infy_train_y)
 infy_grid_pred=infy_grid_lm.predict(infy_test_x)
