@@ -1,4 +1,4 @@
-# python-test
+# Nifty IT Stocks exploration
 
 This workings contains
 1. 14,16,....,52 week moving average(closing price) for each stock and index.
